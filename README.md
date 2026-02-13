@@ -1,0 +1,50 @@
+# HADDOCK_test — Guided Docking + Batch Pipeline
+
+This repo is a scaffold plus a batch pipeline to prepare, run, and post-process guided HADDOCK3 docking jobs. It handles splitting/merging chains, building restraints, running HADDOCK, archiving per-run inputs, and cleaning intermediates. Graph conversion scripts are included for flexref outputs.
+
+## Activation
+Create + activate the local venv:
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+## Key Paths
+- `data/` — input PDBs. **Per-run intermediates are cleaned after pipeline runs.**
+- `restraints/` — AIRs, intra-ligand locks, other restraint files.
+- `scripts/` — helpers: split/merge, restraints, pipeline, graph conversion.
+- `results/` — per-run archives (`results/run_<ID>/`). Do **not** pre-create/seed these before HADDOCK runs; HADDOCK needs to create/manage its run_dir.
+- `docs/` — configs/logs; `docs/pipeline_logs/` per-run logs.
+- `Graphs/` — graph outputs (e.g., flexref interface graphs).
+- `pdbAG/` — receptor reference PDBs used to infer receptor chains (strip `refold_` prefix and `_Epi` suffix from complex name).
+
+## Batch Pipeline (recommended)
+Use `scripts/run_pipeline.py` to process one or more complex PDBs in `data/`:
+```bash
+python scripts/run_pipeline.py --complexes <complex1.pdb> [<complex2.pdb> ...]
+```
+Pipeline steps per complex:
+1) Infer receptor chains from `pdbAG/<base>.pdb` (base = complex stem without `refold_` and `_Epi`). Remaining chains = ligand.
+2) Split complex → `data/receptor_<base>.pdb`, `data/ligand_<base>.pdb`.
+3) Merge to single chains → `data/receptor_single_<base>.pdb` (A), `data/ligand_single_<base>.pdb` (X), and merged complex `data/complex_merged_<base>.pdb`.
+4) Build intra-ligand lock restraints `restraints/intra_lig_lock_<base>.tbl` (keeps heavy/light orientation fixed).
+5) Build interface AIRs `restraints/air_<base>.tbl` (receptor hotspots from B-factor > -20 to ligand interface residues within 6 Å).
+6) Write config `docs/haddock3_config_<base>.cfg` (ncores=20, sampling=20; ambig_fname=air_*, unambig_fname=lock_*; molecules = merged singles).
+7) Run HADDOCK3 (`.venv/bin/haddock3 --restart 0 ...`); archive splits/merges/restraints/config into `results/run_<base>/` **after** HADDOCK finishes. Do not pre-create `results/run_<base>` before the run.
+8) Clean intermediates from `data/` (split/merged PDBs, merged complex).
+Logs: `docs/pipeline_logs/<base>.log` and appended to `docs/LOG.md`. Run log: `docs/pipeline_logs/haddock_<base>.log`.
+
+## Helper Scripts
+- `scripts/prepare_from_complex.py` — single split/merge using receptor inferred from `pdbAG/<name>.pdb`.
+- `scripts/merge_chains.py` — merge chains to one chain, renumber residues.
+- `scripts/make_air.py` — build AIRs from residue lists.
+- `scripts/merge_two_pdbs.py` — merge receptor_single + ligand_single into one PDB.
+- `scripts/flexref_to_graphs.py` — convert flexref PDBs (`results/<ID>/2_flexref/*.pdb`) to **interface-only** PyG graphs (ligand X ↔ receptor non-X within 10 Å). Output: `Graphs/flexref/<ID>.pth`. **Dependencies:** `torch`, `torch_geometric`.
+  - Ligand chain(s) default to `X`; override with `--lig-chains` for cases like ZDOCK outputs where ligand is chain `B` (or multiple chains): `python3 scripts/flexref_to_graphs.py --runs ZDOCK_rank1 --lig-chains B`.
+
+## Notes
+- HADDOCK prefers single-chain ligands; antibody H/L will drift apart unless you supply lock restraints. The pipeline builds intra-ligand lock restraints (`restraints/intra_lig_lock_<base>.tbl`) when using `run_pipeline.py`.
+- `data/` is kept clean; per-run artifacts are archived under `results/run_<base>/`.
+- Receptor chain inference depends on matching a `pdbAG/<base>.pdb` file (base = complex name without `refold_` and `_Epi`).
+- Graphs store only interface nodes/edges (ligand X ↔ receptor non-X). Default ligand chain for graphing is `X`; set `--lig-chains` if your ligand is not `X`.
+- 2026-02-13 (refinement finding): Docking succeeds only when Ab–Ag start with some (even artificial) physical contact; beta-factor hotspot guidance can still place the Ab, but if the initial pose is far with no contact, the docking run fails. Batch of 93 samples took ~5–6 hours (~2–4 minutes per sample).
