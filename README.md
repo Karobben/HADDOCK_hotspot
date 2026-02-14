@@ -47,6 +47,21 @@ Pipeline steps per complex:
 8) Clean intermediates from `data/` (split/merged PDBs, merged complex).
 Logs: `docs/pipeline_logs/<base>.log` and appended to `docs/LOG.md`. Run log: `docs/pipeline_logs/haddock_<base>.log`.
 
+## Flow (text chart)
+```
+[Input PDBs in data/] --> [Infer receptor from pdbAG/<base>.pdb] -->
+[Split complex into receptor/ligand] --> [Merge to single-chain receptor (A) + ligand (X)] -->
+[Build restraints: intra-lig lock + AIRs from receptor hotspots (B-factor > -20) to ligand within 6 Å] -->
+[Write haddock3_config_<base>.cfg] --> [Run HADDOCK3] -->
+[Archive run_<base>/ inputs + logs] --> [Clean data/ intermediates]
+```
+
+### How to prepare PDB inputs
+- Place complexes in `data/` (example: `data/example_input.pdb`). Filename stem = `<base>`.
+- Place receptor reference at `pdbAG/<base>.pdb` (strip any `refold_` prefix and `_Epi` suffix). Chain IDs in `pdbAG/<base>.pdb` define receptor; remaining chains in the complex become ligand.
+- Hotspots: set receptor residue B-factors > -20 for residues to attract ligand; pipeline builds AIRs to ligand residues within 6 Å.
+- Ligand should be present in the complex PDB. If antibody H/L are separate chains, pipeline will merge to a single chain X and add intra-ligand lock restraints to keep orientation.
+
 ## Helper Scripts
 - `scripts/prepare_from_complex.py` — single split/merge using receptor inferred from `pdbAG/<name>.pdb`.
 - `scripts/merge_chains.py` — merge chains to one chain, renumber residues.
