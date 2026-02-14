@@ -47,14 +47,14 @@ Pipeline steps per complex:
 8) Clean intermediates from `data/` (split/merged PDBs, merged complex).
 Logs: `docs/pipeline_logs/<base>.log` and appended to `docs/LOG.md`. Run log: `docs/pipeline_logs/haddock_<base>.log`.
 
-## Flow (text chart)
-```
-[Input PDBs in data/] --> [Infer receptor from pdbAG/<base>.pdb] -->
-[Split complex into receptor/ligand] --> [Merge to single-chain receptor (A) + ligand (X)] -->
-[Build restraints: intra-lig lock + AIRs from receptor hotspots (B-factor > -20) to ligand within 6 Å] -->
-[Write haddock3_config_<base>.cfg] --> [Run HADDOCK3] -->
-[Archive run_<base>/ inputs + logs] --> [Clean data/ intermediates]
-```
+## Flow (plain text)
+- Input PDBs in `data/` (e.g., `data/example_input.pdb`).
+- Infer receptor from `pdbAG/<base>.pdb` (base = filename stem, strip `refold_`/`_Epi`). Remaining chains = ligand.
+- Split complex → receptor/ligand; merge to single-chain receptor (A) + ligand (X).
+- Build restraints: intra-ligand lock + AIRs from receptor hotspots (B-factor > -20) to ligand residues within 6 Å.
+- Write `docs/haddock3_config_<base>.cfg`.
+- Run HADDOCK3.
+- Archive `results/run_<base>/` inputs + logs; clean `data/` intermediates.
 
 ### How to prepare PDB inputs
 - Place complexes in `data/` (example: `data/example_input.pdb`). Filename stem = `<base>`.
