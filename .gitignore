@@ -22,3 +22,5 @@ test.cfg
 tmp.list
 ranair.tbl
 Pos_GTAGCAGAGAGGCTGA-1_contig_1_1_Epi.pdb PigHadDock.csv
+
+.venv
