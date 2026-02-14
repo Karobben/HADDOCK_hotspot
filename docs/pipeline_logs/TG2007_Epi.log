@@ -1,0 +1,8 @@
+[2026-02-06T08:05:52]
+receptor chains ['A', 'B', 'C', 'D', 'E', 'F']; ligand chains ['H', 'L']
+split -> receptor_TG2007_Epi.pdb, ligand_TG2007_Epi.pdb; merged -> receptor_single_TG2007_Epi.pdb, ligand_single_TG2007_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_TG2007_Epi.tbl
+AIR pairs: 336 (rec_if [1094, 1095, 1096, 1097, 1098, 1099, 1100, 1101, 1102, 1103, 1104, 1230], lig_if [50, 51, 53, 54, 55, 56, 57, 58, 71, 72, 104, 213]) -> air_TG2007_Epi.tbl
+config: haddock3_config_TG2007_Epi.cfg
+run haddock3 rc=0, log=haddock_TG2007_Epi.log
+

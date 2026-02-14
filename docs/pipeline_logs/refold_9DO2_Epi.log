@@ -1,0 +1,8 @@
+[2026-02-06T06:06:54]
+receptor chains ['A', 'B', 'C']; ligand chains ['H', 'L']
+split -> receptor_refold_9DO2_Epi.pdb, ligand_refold_9DO2_Epi.pdb; merged -> receptor_single_refold_9DO2_Epi.pdb, ligand_single_refold_9DO2_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_9DO2_Epi.tbl
+AIR pairs: 60 (rec_if [91, 92, 93, 94], lig_if [103, 104, 105]) -> air_refold_9DO2_Epi.tbl
+config: haddock3_config_refold_9DO2_Epi.cfg
+run haddock3 rc=0, log=haddock_refold_9DO2_Epi.log
+

@@ -1,0 +1,61 @@
+[2026-02-07 00:37:02,054 cli INFO] 
+##############################################
+#                                            #
+#                 HADDOCK3                   #
+#                                            #
+##############################################
+
+!! Some of the HADDOCK3 components use CNS (Crystallographic and NMR System) which is free of use for non-profit applications. !!
+!! For commercial use it is your own responsibility to have a proper license. !!
+!! For details refer to the DISCLAIMER file in the HADDOCK3 repository. !!
+
+Starting HADDOCK3 v2024.10.0b7 on 2026-02-07 00:37:00
+
+Python 3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0]
+
+Traceback (most recent call last):
+  File "/mnt/Data/PopOS/Data_Ana/Wu/clawdPorjects/HADDOCK_test/.venv/bin/haddock3", line 8, in <module>
+    sys.exit(maincli())
+  File "/home/yiran/BioTools/haddock3/src/haddock/clis/cli.py", line 78, in maincli
+    cli(ap, main)
+  File "/home/yiran/BioTools/haddock3/src/haddock/clis/cli.py", line 73, in cli
+    main(**vars(cmd))
+  File "/home/yiran/BioTools/haddock3/src/haddock/clis/cli.py", line 150, in main
+    params, other_params = setup_run(
+  File "/home/yiran/BioTools/haddock3/src/haddock/gear/prepare_run.py", line 391, in setup_run
+    validate_modules_params(modules_params, max_mols)
+  File "/home/yiran/BioTools/haddock3/src/haddock/gear/prepare_run.py", line 159, in wrapper
+    return func(*args, **kwargs)
+  File "/home/yiran/BioTools/haddock3/src/haddock/gear/prepare_run.py", line 568, in validate_modules_params
+    defaults = _read_defaults(module_name)
+  File "/home/yiran/BioTools/haddock3/src/haddock/gear/prepare_run.py", line 186, in _read_defaults
+    validate_defaults_yaml(pdef)
+  File "/home/yiran/BioTools/haddock3/src/haddock/gear/validations.py", line 105, in validate_defaults_yaml
+    validate_yaml_params_scheme(yaml_fpath)
+  File "/home/yiran/BioTools/haddock3/src/haddock/gear/validations.py", line 41, in validate_yaml_params_scheme
+    ycfg = read_from_yaml(yaml_fpath)
+  File "/home/yiran/BioTools/haddock3/src/haddock/libs/libio.py", line 111, in read_from_yaml
+    ycfg = yaml.safe_load(fin)
+  File "/mnt/Data/PopOS/Data_Ana/Wu/clawdPorjects/HADDOCK_test/.venv/lib/python3.10/site-packages/yaml/__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+  File "/mnt/Data/PopOS/Data_Ana/Wu/clawdPorjects/HADDOCK_test/.venv/lib/python3.10/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "/mnt/Data/PopOS/Data_Ana/Wu/clawdPorjects/HADDOCK_test/.venv/lib/python3.10/site-packages/yaml/constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "/mnt/Data/PopOS/Data_Ana/Wu/clawdPorjects/HADDOCK_test/.venv/lib/python3.10/site-packages/yaml/composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "/mnt/Data/PopOS/Data_Ana/Wu/clawdPorjects/HADDOCK_test/.venv/lib/python3.10/site-packages/yaml/composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "/mnt/Data/PopOS/Data_Ana/Wu/clawdPorjects/HADDOCK_test/.venv/lib/python3.10/site-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "/mnt/Data/PopOS/Data_Ana/Wu/clawdPorjects/HADDOCK_test/.venv/lib/python3.10/site-packages/yaml/composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "/mnt/Data/PopOS/Data_Ana/Wu/clawdPorjects/HADDOCK_test/.venv/lib/python3.10/site-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "/mnt/Data/PopOS/Data_Ana/Wu/clawdPorjects/HADDOCK_test/.venv/lib/python3.10/site-packages/yaml/composer.py", line 129, in compose_mapping_node
+    item_key = self.compose_node(node, None)
+  File "/mnt/Data/PopOS/Data_Ana/Wu/clawdPorjects/HADDOCK_test/.venv/lib/python3.10/site-packages/yaml/composer.py", line 79, in compose_node
+    if self.check_event(ScalarEvent):
+  File "/mnt/Data/PopOS/Data_Ana/Wu/clawdPorjects/HADDOCK_test/.venv/lib/python3.10/site-packages/yaml/parser.py", line 103, in check_event
+    if isinstance(self.current_event, choice):
+KeyboardInterrupt

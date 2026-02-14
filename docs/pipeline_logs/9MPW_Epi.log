@@ -1,0 +1,24 @@
+[2026-02-06T03:27:43]
+receptor chains ['S']; ligand chains ['H', 'L']
+split -> receptor_9MPW_Epi.pdb, ligand_9MPW_Epi.pdb; merged -> receptor_single_9MPW_Epi.pdb, ligand_single_9MPW_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_9MPW_Epi.tbl
+AIR pairs: 0 (rec_if [55, 274], lig_if [166, 205]) -> air_9MPW_Epi.tbl
+config: haddock3_config_9MPW_Epi.cfg
+run haddock3 rc=1, log=haddock_9MPW_Epi.log
+
+[2026-02-06T04:54:43]
+receptor chains ['S']; ligand chains ['H', 'L']
+split -> receptor_9MPW_Epi.pdb, ligand_9MPW_Epi.pdb; merged -> receptor_single_9MPW_Epi.pdb, ligand_single_9MPW_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_9MPW_Epi.tbl
+AIR pairs: 0 (rec_if [55, 274], lig_if [166, 205]) -> air_9MPW_Epi.tbl
+config: haddock3_config_9MPW_Epi.cfg
+run haddock3 rc=1, log=haddock_9MPW_Epi.log
+
+[2026-02-06T11:08:56]
+receptor chains ['S']; ligand chains ['H', 'L']
+split -> receptor_9MPW_Epi.pdb, ligand_9MPW_Epi.pdb; merged -> receptor_single_9MPW_Epi.pdb, ligand_single_9MPW_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_9MPW_Epi.tbl
+AIR pairs: 4 (rec_if [55, 274], lig_if [166, 205]) -> air_9MPW_Epi.tbl
+config: haddock3_config_9MPW_Epi.cfg
+run haddock3 rc=0, log=haddock_9MPW_Epi.log
+

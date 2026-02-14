@@ -1,0 +1,24 @@
+[2026-02-06T03:27:44]
+receptor chains ['C']; ligand chains ['H', 'L']
+split -> receptor_9O3D_Epi.pdb, ligand_9O3D_Epi.pdb; merged -> receptor_single_9O3D_Epi.pdb, ligand_single_9O3D_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_9O3D_Epi.tbl
+AIR pairs: 0 (rec_if [5, 16, 17, 26, 29], lig_if [52, 103, 105, 106, 215, 216]) -> air_9O3D_Epi.tbl
+config: haddock3_config_9O3D_Epi.cfg
+run haddock3 rc=1, log=haddock_9O3D_Epi.log
+
+[2026-02-06T04:54:51]
+receptor chains ['C']; ligand chains ['H', 'L']
+split -> receptor_9O3D_Epi.pdb, ligand_9O3D_Epi.pdb; merged -> receptor_single_9O3D_Epi.pdb, ligand_single_9O3D_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_9O3D_Epi.tbl
+AIR pairs: 0 (rec_if [5, 16, 17, 26, 29], lig_if [52, 103, 105, 106, 215, 216]) -> air_9O3D_Epi.tbl
+config: haddock3_config_9O3D_Epi.cfg
+run haddock3 rc=1, log=haddock_9O3D_Epi.log
+
+[2026-02-06T14:53:52]
+receptor chains ['C']; ligand chains ['H', 'L']
+split -> receptor_9O3D_Epi.pdb, ligand_9O3D_Epi.pdb; merged -> receptor_single_9O3D_Epi.pdb, ligand_single_9O3D_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_9O3D_Epi.tbl
+AIR pairs: 30 (rec_if [5, 16, 17, 26, 29], lig_if [52, 103, 105, 106, 215, 216]) -> air_9O3D_Epi.tbl
+config: haddock3_config_9O3D_Epi.cfg
+run haddock3 rc=0, log=haddock_9O3D_Epi.log
+

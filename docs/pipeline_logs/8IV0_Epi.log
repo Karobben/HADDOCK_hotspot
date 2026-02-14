@@ -1,0 +1,16 @@
+[2026-02-06T03:27:38]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_8IV0_Epi.pdb, ligand_8IV0_Epi.pdb; merged -> receptor_single_8IV0_Epi.pdb, ligand_single_8IV0_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_8IV0_Epi.tbl
+AIR pairs: 364 (rec_if [118, 134, 135, 146, 147, 148, 150, 151, 153], lig_if [31, 56, 57, 58, 59, 60, 61, 99, 100, 147, 148, 215, 216]) -> air_8IV0_Epi.tbl
+config: haddock3_config_8IV0_Epi.cfg
+run haddock3 rc=1, log=haddock_8IV0_Epi.log
+
+[2026-02-06T04:21:23]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_8IV0_Epi.pdb, ligand_8IV0_Epi.pdb; merged -> receptor_single_8IV0_Epi.pdb, ligand_single_8IV0_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_8IV0_Epi.tbl
+AIR pairs: 364 (rec_if [118, 134, 135, 146, 147, 148, 150, 151, 153], lig_if [31, 56, 57, 58, 59, 60, 61, 99, 100, 147, 148, 215, 216]) -> air_8IV0_Epi.tbl
+config: haddock3_config_8IV0_Epi.cfg
+run haddock3 rc=1, log=haddock_8IV0_Epi.log
+

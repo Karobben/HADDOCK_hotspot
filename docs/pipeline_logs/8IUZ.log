@@ -1,0 +1,22 @@
+[2026-02-06T02:19:02]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_8IUZ.pdb, ligand_8IUZ.pdb; merged -> receptor_single_8IUZ.pdb, ligand_single_8IUZ.pdb
+intra lock pairs: 12 -> intra_lig_lock_8IUZ.tbl
+AIR pairs: 28 (rec_if [131, 132, 133], lig_if [32, 33, 101, 102]) -> air_8IUZ.tbl
+config: haddock3_config_8IUZ.cfg
+
+[2026-02-06T02:19:25]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_8IUZ.pdb, ligand_8IUZ.pdb; merged -> receptor_single_8IUZ.pdb, ligand_single_8IUZ.pdb
+intra lock pairs: 12 -> intra_lig_lock_8IUZ.tbl
+AIR pairs: 28 (rec_if [131, 132, 133], lig_if [32, 33, 101, 102]) -> air_8IUZ.tbl
+config: haddock3_config_8IUZ.cfg
+
+[2026-02-06T02:23:34]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_8IUZ.pdb, ligand_8IUZ.pdb; merged -> receptor_single_8IUZ.pdb, ligand_single_8IUZ.pdb
+intra lock pairs: 12 -> intra_lig_lock_8IUZ.tbl
+AIR pairs: 28 (rec_if [131, 132, 133], lig_if [32, 33, 101, 102]) -> air_8IUZ.tbl
+config: haddock3_config_8IUZ.cfg
+run haddock3 rc=0, log=haddock_8IUZ.log
+

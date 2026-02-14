@@ -1,0 +1,72 @@
+[2026-02-06T06:06:58]
+receptor chains ['A', 'B', 'C']; ligand chains ['H']
+split -> receptor_refold_9FM1_Epi.pdb, ligand_refold_9FM1_Epi.pdb; merged -> receptor_single_refold_9FM1_Epi.pdb, ligand_single_refold_9FM1_Epi.pdb
+intra lock pairs: 0 -> intra_lig_lock_refold_9FM1_Epi.tbl
+AIR pairs: 88 (rec_if [1079, 1080, 1349, 1350, 1436], lig_if [1, 30, 100, 101]) -> air_refold_9FM1_Epi.tbl
+config: haddock3_config_refold_9FM1_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_9FM1_Epi.log
+
+[2026-02-06T15:27:48]
+receptor chains ['A', 'B', 'C']; ligand chains ['H']
+split -> receptor_refold_9FM1_Epi.pdb, ligand_refold_9FM1_Epi.pdb; merged -> receptor_single_refold_9FM1_Epi.pdb, ligand_single_refold_9FM1_Epi.pdb
+intra lock pairs: 0 -> intra_lig_lock_refold_9FM1_Epi.tbl
+AIR pairs: 88 (rec_if [1079, 1080, 1349, 1350, 1436], lig_if [1, 30, 100, 101]) -> air_refold_9FM1_Epi.tbl
+config: haddock3_config_refold_9FM1_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_9FM1_Epi.log
+
+[2026-02-06T15:51:01]
+receptor chains ['A', 'B', 'C']; ligand chains ['H']
+split -> receptor_refold_9FM1_Epi.pdb, ligand_refold_9FM1_Epi.pdb; merged -> receptor_single_refold_9FM1_Epi.pdb, ligand_single_refold_9FM1_Epi.pdb
+intra lock pairs: 0 -> intra_lig_lock_refold_9FM1_Epi.tbl
+AIR pairs: 88 (rec_if [1079, 1080, 1349, 1350, 1436], lig_if [1, 30, 100, 101]) -> air_refold_9FM1_Epi.tbl
+config: haddock3_config_refold_9FM1_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_9FM1_Epi.log
+
+[2026-02-06T15:51:21]
+receptor chains ['A', 'B', 'C']; ligand chains ['H']
+split -> receptor_refold_9FM1_Epi.pdb, ligand_refold_9FM1_Epi.pdb; merged -> receptor_single_refold_9FM1_Epi.pdb, ligand_single_refold_9FM1_Epi.pdb
+intra lock pairs: 0 -> intra_lig_lock_refold_9FM1_Epi.tbl
+AIR pairs: 88 (rec_if [1079, 1080, 1349, 1350, 1436], lig_if [1, 30, 100, 101]) -> air_refold_9FM1_Epi.tbl
+config: haddock3_config_refold_9FM1_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_9FM1_Epi.log
+
+[2026-02-06T15:53:31]
+receptor chains ['A', 'B', 'C']; ligand chains ['H']
+split -> receptor_refold_9FM1_Epi.pdb, ligand_refold_9FM1_Epi.pdb; merged -> receptor_single_refold_9FM1_Epi.pdb, ligand_single_refold_9FM1_Epi.pdb
+intra lock pairs: 0 -> intra_lig_lock_refold_9FM1_Epi.tbl
+AIR pairs: 88 (rec_if [1079, 1080, 1349, 1350, 1436], lig_if [1, 30, 100, 101]) -> air_refold_9FM1_Epi.tbl
+config: haddock3_config_refold_9FM1_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_9FM1_Epi.log
+
+[2026-02-06T15:54:28]
+receptor chains ['A', 'B', 'C']; ligand chains ['H']
+split -> receptor_refold_9FM1_Epi.pdb, ligand_refold_9FM1_Epi.pdb; merged -> receptor_single_refold_9FM1_Epi.pdb, ligand_single_refold_9FM1_Epi.pdb
+intra lock pairs: 0 -> intra_lig_lock_refold_9FM1_Epi.tbl
+AIR pairs: 88 (rec_if [1079, 1080, 1349, 1350, 1436], lig_if [1, 30, 100, 101]) -> air_refold_9FM1_Epi.tbl
+config: haddock3_config_refold_9FM1_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_9FM1_Epi.log
+
+[2026-02-06T16:01:20]
+receptor chains ['A', 'B', 'C']; ligand chains ['H']
+split -> receptor_refold_9FM1_Epi.pdb, ligand_refold_9FM1_Epi.pdb; merged -> receptor_single_refold_9FM1_Epi.pdb, ligand_single_refold_9FM1_Epi.pdb
+intra lock pairs: 0 -> intra_lig_lock_refold_9FM1_Epi.tbl
+AIR pairs: 88 (rec_if [1079, 1080, 1349, 1350, 1436], lig_if [1, 30, 100, 101]) -> air_refold_9FM1_Epi.tbl
+config: haddock3_config_refold_9FM1_Epi.cfg
+run haddock3 rc=0, log=haddock_refold_9FM1_Epi.log
+
+[2026-02-06T18:47:30]
+receptor chains ['A', 'B', 'C']; ligand chains ['H']
+split -> receptor_refold_9FM1_Epi.pdb, ligand_refold_9FM1_Epi.pdb; merged -> receptor_single_refold_9FM1_Epi.pdb, ligand_single_refold_9FM1_Epi.pdb
+intra lock pairs: 0 -> intra_lig_lock_refold_9FM1_Epi.tbl
+AIR pairs: 88 (rec_if [1079, 1080, 1349, 1350, 1436], lig_if [1, 30, 100, 101]) -> air_refold_9FM1_Epi.tbl
+config: haddock3_config_refold_9FM1_Epi.cfg
+run haddock3 rc=0, log=haddock_refold_9FM1_Epi.log
+
+[2026-02-06T20:11:04]
+receptor chains ['A', 'B', 'C']; ligand chains ['H']
+split -> receptor_refold_9FM1_Epi.pdb, ligand_refold_9FM1_Epi.pdb; merged -> receptor_single_refold_9FM1_Epi.pdb, ligand_single_refold_9FM1_Epi.pdb
+intra lock pairs: 0 -> intra_lig_lock_refold_9FM1_Epi.tbl
+AIR pairs: 88 (rec_if [1079, 1080, 1349, 1350, 1436], lig_if [1, 30, 100, 101]) -> air_refold_9FM1_Epi.tbl
+config: haddock3_config_refold_9FM1_Epi.cfg
+run haddock3 rc=0, log=haddock_refold_9FM1_Epi.log
+

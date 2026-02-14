@@ -1,0 +1,16 @@
+[2026-02-06T03:27:36]
+receptor chains ['A', 'B', 'C', 'D', 'E', 'F']; ligand chains ['H', 'L']
+split -> receptor_604_Epi.pdb, ligand_604_Epi.pdb; merged -> receptor_single_604_Epi.pdb, ligand_single_604_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_604_Epi.tbl
+AIR pairs: 35 (rec_if [30, 338, 339, 340, 362], lig_if [55, 103, 104, 108, 219]) -> air_604_Epi.tbl
+config: haddock3_config_604_Epi.cfg
+run haddock3 rc=1, log=haddock_604_Epi.log
+
+[2026-02-06T04:15:36]
+receptor chains ['A', 'B', 'C', 'D', 'E', 'F']; ligand chains ['H', 'L']
+split -> receptor_604_Epi.pdb, ligand_604_Epi.pdb; merged -> receptor_single_604_Epi.pdb, ligand_single_604_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_604_Epi.tbl
+AIR pairs: 35 (rec_if [30, 338, 339, 340, 362], lig_if [55, 103, 104, 108, 219]) -> air_604_Epi.tbl
+config: haddock3_config_604_Epi.cfg
+run haddock3 rc=0, log=haddock_604_Epi.log
+

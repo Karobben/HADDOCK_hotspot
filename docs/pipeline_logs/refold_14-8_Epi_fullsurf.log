@@ -1,0 +1,8 @@
+[2026-02-06T20:44:27]
+receptor chains ['A', 'B', 'C', 'D', 'E', 'F']; ligand chains ['H', 'L']
+split -> receptor_refold_14-8_Epi.pdb, ligand_refold_14-8_Epi.pdb; merged -> receptor_single_refold_14-8_Epi.pdb, ligand_single_refold_14-8_Epi.pdb
+intra lock pairs: 0 -> intra_lig_lock_refold_14-8_Epi.tbl
+AIR pairs: 0 (rec_if [], lig_if []) -> air_full_refold_14-8_Epi.tbl
+config: haddock3_config_refold_14-8_Epi_fullsurf.cfg
+run haddock3 rc=0, log=haddock_refold_14-8_Epi_fullsurf.log
+

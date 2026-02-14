@@ -1,0 +1,24 @@
+[2026-02-13T02:34:08]
+receptor chains ['A', 'B']; ligand chains ['H', 'L']
+split -> receptor_Neg_ACCTGTAAGCAAATGA-1_contig_1_1.pdb, ligand_Neg_ACCTGTAAGCAAATGA-1_contig_1_1.pdb; merged -> receptor_single_Neg_ACCTGTAAGCAAATGA-1_contig_1_1.pdb, ligand_single_Neg_ACCTGTAAGCAAATGA-1_contig_1_1.pdb
+intra lock pairs: 12 -> intra_lig_lock_Neg_ACCTGTAAGCAAATGA-1_contig_1_1.tbl
+AIR pairs: 0 -> air_Neg_ACCTGTAAGCAAATGA-1_contig_1_1.tbl
+config: haddock3_config_Neg_ACCTGTAAGCAAATGA-1_contig_1_1.cfg
+run haddock3 rc=0, log=haddock_Neg_ACCTGTAAGCAAATGA-1_contig_1_1.log
+
+[2026-02-13T02:36:08]
+receptor chains ['A', 'B']; ligand chains ['H', 'L']
+split -> receptor_Neg_ACCTGTAAGCAAATGA-1_contig_1_1.pdb, ligand_Neg_ACCTGTAAGCAAATGA-1_contig_1_1.pdb; merged -> receptor_single_Neg_ACCTGTAAGCAAATGA-1_contig_1_1.pdb, ligand_single_Neg_ACCTGTAAGCAAATGA-1_contig_1_1.pdb
+intra lock pairs: 12 -> intra_lig_lock_Neg_ACCTGTAAGCAAATGA-1_contig_1_1.tbl
+AIR pairs: 0 -> air_Neg_ACCTGTAAGCAAATGA-1_contig_1_1.tbl
+config: haddock3_config_Neg_ACCTGTAAGCAAATGA-1_contig_1_1.cfg
+run haddock3 rc=0, log=haddock_Neg_ACCTGTAAGCAAATGA-1_contig_1_1.log
+
+[2026-02-13T10:22:58]
+receptor chains ['A', 'B']; ligand chains ['H', 'L']
+split -> receptor_Neg_ACCTGTAAGCAAATGA-1_contig_1_1.pdb, ligand_Neg_ACCTGTAAGCAAATGA-1_contig_1_1.pdb; merged -> receptor_single_Neg_ACCTGTAAGCAAATGA-1_contig_1_1.pdb, ligand_single_Neg_ACCTGTAAGCAAATGA-1_contig_1_1.pdb
+intra lock pairs: 12 -> intra_lig_lock_Neg_ACCTGTAAGCAAATGA-1_contig_1_1.tbl
+AIR pairs: 414 (rec_if [339, 340, 342, 343, 356, 357, 358, 359, 360, 361, 362, 363, 365, 366, 369, 438, 441, 442, 445, 470, 472, 473, 474, 475], lig_if [30, 31, 53, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 162]) -> air_Neg_ACCTGTAAGCAAATGA-1_contig_1_1.tbl
+config: haddock3_config_Neg_ACCTGTAAGCAAATGA-1_contig_1_1.cfg
+run haddock3 rc=0, log=haddock_Neg_ACCTGTAAGCAAATGA-1_contig_1_1.log
+

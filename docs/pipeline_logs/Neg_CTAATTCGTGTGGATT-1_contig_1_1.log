@@ -1,0 +1,24 @@
+[2026-02-13T04:45:16]
+receptor chains ['A', 'B']; ligand chains ['H', 'L']
+split -> receptor_Neg_CTAATTCGTGTGGATT-1_contig_1_1.pdb, ligand_Neg_CTAATTCGTGTGGATT-1_contig_1_1.pdb; merged -> receptor_single_Neg_CTAATTCGTGTGGATT-1_contig_1_1.pdb, ligand_single_Neg_CTAATTCGTGTGGATT-1_contig_1_1.pdb
+intra lock pairs: 12 -> intra_lig_lock_Neg_CTAATTCGTGTGGATT-1_contig_1_1.tbl
+AIR pairs: 0 -> air_Neg_CTAATTCGTGTGGATT-1_contig_1_1.tbl
+config: haddock3_config_Neg_CTAATTCGTGTGGATT-1_contig_1_1.cfg
+run haddock3 rc=0, log=haddock_Neg_CTAATTCGTGTGGATT-1_contig_1_1.log
+
+[2026-02-13T04:47:20]
+receptor chains ['A', 'B']; ligand chains ['H', 'L']
+split -> receptor_Neg_CTAATTCGTGTGGATT-1_contig_1_1.pdb, ligand_Neg_CTAATTCGTGTGGATT-1_contig_1_1.pdb; merged -> receptor_single_Neg_CTAATTCGTGTGGATT-1_contig_1_1.pdb, ligand_single_Neg_CTAATTCGTGTGGATT-1_contig_1_1.pdb
+intra lock pairs: 12 -> intra_lig_lock_Neg_CTAATTCGTGTGGATT-1_contig_1_1.tbl
+AIR pairs: 0 -> air_Neg_CTAATTCGTGTGGATT-1_contig_1_1.tbl
+config: haddock3_config_Neg_CTAATTCGTGTGGATT-1_contig_1_1.cfg
+run haddock3 rc=0, log=haddock_Neg_CTAATTCGTGTGGATT-1_contig_1_1.log
+
+[2026-02-13T11:33:29]
+receptor chains ['A', 'B']; ligand chains ['H', 'L']
+split -> receptor_Neg_CTAATTCGTGTGGATT-1_contig_1_1.pdb, ligand_Neg_CTAATTCGTGTGGATT-1_contig_1_1.pdb; merged -> receptor_single_Neg_CTAATTCGTGTGGATT-1_contig_1_1.pdb, ligand_single_Neg_CTAATTCGTGTGGATT-1_contig_1_1.pdb
+intra lock pairs: 12 -> intra_lig_lock_Neg_CTAATTCGTGTGGATT-1_contig_1_1.tbl
+AIR pairs: 168 (rec_if [3, 4, 5, 6, 321, 329, 330, 331, 332, 333, 334, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 365, 366, 369, 454, 455, 456, 457, 470], lig_if [30, 31, 32, 54, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 168]) -> air_Neg_CTAATTCGTGTGGATT-1_contig_1_1.tbl
+config: haddock3_config_Neg_CTAATTCGTGTGGATT-1_contig_1_1.cfg
+run haddock3 rc=0, log=haddock_Neg_CTAATTCGTGTGGATT-1_contig_1_1.log
+

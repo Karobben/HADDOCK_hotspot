@@ -1,0 +1,24 @@
+[2026-02-06T03:27:36]
+receptor chains ['A', 'B', 'C', 'D', 'E', 'F']; ligand chains ['H', 'L']
+split -> receptor_4fqi_HLBA_Epi.pdb, ligand_4fqi_HLBA_Epi.pdb; merged -> receptor_single_4fqi_HLBA_Epi.pdb, ligand_single_4fqi_HLBA_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_4fqi_HLBA_Epi.tbl
+AIR pairs: 24 (rec_if [291, 852, 853], lig_if [31, 75]) -> air_4fqi_HLBA_Epi.tbl
+config: haddock3_config_4fqi_HLBA_Epi.cfg
+run haddock3 rc=1, log=haddock_4fqi_HLBA_Epi.log
+
+[2026-02-06T04:13:29]
+receptor chains ['A', 'B', 'C', 'D', 'E', 'F']; ligand chains ['H', 'L']
+split -> receptor_4fqi_HLBA_Epi.pdb, ligand_4fqi_HLBA_Epi.pdb; merged -> receptor_single_4fqi_HLBA_Epi.pdb, ligand_single_4fqi_HLBA_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_4fqi_HLBA_Epi.tbl
+AIR pairs: 24 (rec_if [291, 852, 853], lig_if [31, 75]) -> air_4fqi_HLBA_Epi.tbl
+config: haddock3_config_4fqi_HLBA_Epi.cfg
+run haddock3 rc=1, log=haddock_4fqi_HLBA_Epi.log
+
+[2026-02-10T14:11:02]
+receptor chains ['A', 'B', 'C', 'D', 'E', 'F']; ligand chains ['H', 'L']
+split -> receptor_4fqi_HLBA_Epi.pdb, ligand_4fqi_HLBA_Epi.pdb; merged -> receptor_single_4fqi_HLBA_Epi.pdb, ligand_single_4fqi_HLBA_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_4fqi_HLBA_Epi.tbl
+AIR pairs: 24 (rec_if [291, 852, 853], lig_if [31, 75]) -> air_4fqi_HLBA_Epi.tbl
+config: haddock3_config_4fqi_HLBA_Epi.cfg
+run haddock3 rc=1, log=haddock_4fqi_HLBA_Epi.log
+

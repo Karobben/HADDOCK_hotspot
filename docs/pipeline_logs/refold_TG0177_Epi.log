@@ -1,0 +1,16 @@
+[2026-02-06T06:47:59]
+receptor chains ['A', 'B', 'C', 'D', 'E', 'F']; ligand chains ['H', 'L']
+split -> receptor_refold_TG0177_Epi.pdb, ligand_refold_TG0177_Epi.pdb; merged -> receptor_single_refold_TG0177_Epi.pdb, ligand_single_refold_TG0177_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_TG0177_Epi.tbl
+AIR pairs: 260 (rec_if [555, 556, 559, 561, 562, 563, 564, 627, 628, 761, 762], lig_if [99, 100, 101, 102, 148, 149, 150, 169, 187, 213]) -> air_refold_TG0177_Epi.tbl
+config: haddock3_config_refold_TG0177_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_TG0177_Epi.log
+
+[2026-02-06T14:44:28]
+receptor chains ['A', 'B', 'C', 'D', 'E', 'F']; ligand chains ['H', 'L']
+split -> receptor_refold_TG0177_Epi.pdb, ligand_refold_TG0177_Epi.pdb; merged -> receptor_single_refold_TG0177_Epi.pdb, ligand_single_refold_TG0177_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_TG0177_Epi.tbl
+AIR pairs: 260 (rec_if [555, 556, 559, 561, 562, 563, 564, 627, 628, 761, 762], lig_if [99, 100, 101, 102, 148, 149, 150, 169, 187, 213]) -> air_refold_TG0177_Epi.tbl
+config: haddock3_config_refold_TG0177_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_TG0177_Epi.log
+

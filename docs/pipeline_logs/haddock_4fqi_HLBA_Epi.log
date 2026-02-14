@@ -1,0 +1,32 @@
+[2026-02-10 14:13:22,374 cli INFO] 
+##############################################
+#                                            #
+#                 HADDOCK3                   #
+#                                            #
+##############################################
+
+!! Some of the HADDOCK3 components use CNS (Crystallographic and NMR System) which is free of use for non-profit applications. !!
+!! For commercial use it is your own responsibility to have a proper license. !!
+!! For details refer to the DISCLAIMER file in the HADDOCK3 repository. !!
+
+Starting HADDOCK3 v2024.10.0b7 on 2026-02-10 14:13:00
+
+Python 3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0]
+
+[2026-02-10 14:13:26,010 libworkflow INFO] Reading instructions step 0_topoaa
+[2026-02-10 14:13:26,010 libworkflow INFO] Reading instructions step 1_rigidbody
+[2026-02-10 14:13:26,010 libworkflow INFO] Reading instructions step 2_flexref
+[2026-02-10 14:13:26,010 libworkflow INFO] Reading instructions step 3_emref
+[2026-02-10 14:13:26,024 base_cns_module INFO] Running [topoaa] module
+[2026-02-10 14:13:26,024 __init__ INFO] [topoaa] Molecule 1: receptor_single_4fqi_HLBA_Epi.pdb
+[2026-02-10 14:13:26,026 __init__ INFO] [topoaa] Sanitizing molecule receptor_single_4fqi_HLBA_Epi.pdb
+[2026-02-10 14:13:26,034 __init__ INFO] [topoaa] Topology CNS input created
+[2026-02-10 14:13:26,034 __init__ INFO] [topoaa] Molecule 2: ligand_single_4fqi_HLBA_Epi.pdb
+[2026-02-10 14:13:26,035 __init__ INFO] [topoaa] Sanitizing molecule ligand_single_4fqi_HLBA_Epi.pdb
+[2026-02-10 14:13:26,038 __init__ INFO] [topoaa] Topology CNS input created
+[2026-02-10 14:13:26,038 __init__ INFO] [topoaa] Running CNS Jobs n=2
+[2026-02-10 14:13:26,038 libutil INFO] Selected 2 cores to process 2 jobs, with 32 maximum available cores.
+[2026-02-10 14:13:26,040 libparallel INFO] Using 2 cores
+[2026-02-10 14:13:26,733 libparallel INFO] The workers terminated in a controlled way
+[2026-02-10 14:13:26,733 libworkflow INFO] You have halted subprocess execution by hitting Ctrl+c
+[2026-02-10 14:13:26,734 libworkflow INFO] Exiting...

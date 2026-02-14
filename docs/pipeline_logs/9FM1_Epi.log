@@ -1,0 +1,16 @@
+[2026-02-06T03:27:43]
+receptor chains ['A', 'B', 'C']; ligand chains ['H']
+split -> receptor_9FM1_Epi.pdb, ligand_9FM1_Epi.pdb; merged -> receptor_single_9FM1_Epi.pdb, ligand_single_9FM1_Epi.pdb
+intra lock pairs: 0 -> intra_lig_lock_9FM1_Epi.tbl
+AIR pairs: 40 (rec_if [1079, 1080, 1349, 1350, 1436], lig_if [1, 30, 100, 101]) -> air_9FM1_Epi.tbl
+config: haddock3_config_9FM1_Epi.cfg
+run haddock3 rc=1, log=haddock_9FM1_Epi.log
+
+[2026-02-06T04:54:39]
+receptor chains ['A', 'B', 'C']; ligand chains ['H']
+split -> receptor_9FM1_Epi.pdb, ligand_9FM1_Epi.pdb; merged -> receptor_single_9FM1_Epi.pdb, ligand_single_9FM1_Epi.pdb
+intra lock pairs: 0 -> intra_lig_lock_9FM1_Epi.tbl
+AIR pairs: 40 (rec_if [1079, 1080, 1349, 1350, 1436], lig_if [1, 30, 100, 101]) -> air_9FM1_Epi.tbl
+config: haddock3_config_9FM1_Epi.cfg
+run haddock3 rc=1, log=haddock_9FM1_Epi.log
+

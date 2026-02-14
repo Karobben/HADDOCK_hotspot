@@ -1,0 +1,113 @@
+[2026-02-06 21:57:42,761 cli INFO] 
+##############################################
+#                                            #
+#                 HADDOCK3                   #
+#                                            #
+##############################################
+
+!! Some of the HADDOCK3 components use CNS (Crystallographic and NMR System) which is free of use for non-profit applications. !!
+!! For commercial use it is your own responsibility to have a proper license. !!
+!! For details refer to the DISCLAIMER file in the HADDOCK3 repository. !!
+
+Starting HADDOCK3 v2024.10.0b7 on 2026-02-06 21:57:00
+
+Python 3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0]
+
+[2026-02-06 21:57:46,552 libworkflow INFO] Reading instructions step 0_topoaa
+[2026-02-06 21:57:46,552 libworkflow INFO] Reading instructions step 1_rigidbody
+[2026-02-06 21:57:46,552 libworkflow INFO] Reading instructions step 2_flexref
+[2026-02-06 21:57:46,552 libworkflow INFO] Reading instructions step 3_emref
+[2026-02-06 21:57:46,552 libworkflow INFO] Reading instructions step 4_caprieval
+[2026-02-06 21:57:46,566 base_cns_module INFO] Running [topoaa] module
+[2026-02-06 21:57:46,566 __init__ INFO] [topoaa] Molecule 1: receptor_single_refold_9MSC_Epi.pdb
+[2026-02-06 21:57:46,567 __init__ INFO] [topoaa] Sanitizing molecule receptor_single_refold_9MSC_Epi.pdb
+[2026-02-06 21:57:46,571 __init__ INFO] [topoaa] Topology CNS input created
+[2026-02-06 21:57:46,571 __init__ INFO] [topoaa] Molecule 2: ligand_single_refold_9MSC_Epi.pdb
+[2026-02-06 21:57:46,572 __init__ INFO] [topoaa] Sanitizing molecule ligand_single_refold_9MSC_Epi.pdb
+[2026-02-06 21:57:46,575 __init__ INFO] [topoaa] Topology CNS input created
+[2026-02-06 21:57:46,575 __init__ INFO] [topoaa] Running CNS Jobs n=2
+[2026-02-06 21:57:46,575 libutil INFO] Selected 2 cores to process 2 jobs, with 32 maximum available cores.
+[2026-02-06 21:57:46,576 libparallel INFO] Using 2 cores
+[2026-02-06 21:57:47,537 libparallel INFO] 2 tasks finished
+[2026-02-06 21:57:47,537 __init__ INFO] [topoaa] CNS jobs have finished
+[2026-02-06 21:57:47,539 base_cns_module INFO] Module [topoaa] finished.
+[2026-02-06 21:57:47,539 __init__ INFO] [topoaa] took 1 seconds
+[2026-02-06 21:57:47,878 base_cns_module INFO] Running [rigidbody] module
+[2026-02-06 21:57:47,879 __init__ INFO] [rigidbody] crossdock=true
+[2026-02-06 21:57:47,879 __init__ INFO] [rigidbody] Preparing jobs...
+[2026-02-06 21:57:47,880 libutil INFO] Selected 20 cores to process 20 jobs, with 32 maximum available cores.
+[2026-02-06 21:57:47,880 libparallel INFO] Using 20 cores
+[2026-02-06 21:57:47,904 libparallel INFO] 20 tasks finished
+[2026-02-06 21:57:47,905 __init__ INFO] [rigidbody] Preparation took 0.025939 seconds
+[2026-02-06 21:57:47,905 __init__ INFO] [rigidbody] Running CNS Jobs n=20
+[2026-02-06 21:57:47,905 libutil INFO] Selected 20 cores to process 20 jobs, with 32 maximum available cores.
+[2026-02-06 21:57:47,906 libparallel INFO] Using 20 cores
+[2026-02-06 21:57:54,600 libparallel INFO] 20 tasks finished
+[2026-02-06 21:57:54,600 __init__ INFO] [rigidbody] CNS jobs have finished
+[2026-02-06 21:57:54,620 base_cns_module INFO] Module [rigidbody] finished.
+[2026-02-06 21:57:54,620 __init__ INFO] [rigidbody] took 7 seconds
+[2026-02-06 21:57:55,011 base_cns_module INFO] Running [flexref] module
+[2026-02-06 21:57:55,051 __init__ INFO] [flexref] Running CNS Jobs n=20
+[2026-02-06 21:57:55,051 libutil INFO] Selected 20 cores to process 20 jobs, with 32 maximum available cores.
+[2026-02-06 21:57:55,052 libparallel INFO] Using 20 cores
+[2026-02-06 21:58:47,961 libparallel INFO] 20 tasks finished
+[2026-02-06 21:58:47,961 __init__ INFO] [flexref] CNS jobs have finished
+[2026-02-06 21:58:47,982 base_cns_module INFO] Module [flexref] finished.
+[2026-02-06 21:58:47,982 __init__ INFO] [flexref] took 53 seconds
+[2026-02-06 21:58:48,329 base_cns_module INFO] Running [emref] module
+[2026-02-06 21:58:48,368 __init__ INFO] [emref] Running CNS Jobs n=20
+[2026-02-06 21:58:48,368 libutil INFO] Selected 20 cores to process 20 jobs, with 32 maximum available cores.
+[2026-02-06 21:58:48,369 libparallel INFO] Using 20 cores
+[2026-02-06 21:58:52,701 libparallel INFO] 20 tasks finished
+[2026-02-06 21:58:52,701 __init__ INFO] [emref] CNS jobs have finished
+[2026-02-06 21:58:52,722 base_cns_module INFO] Module [emref] finished.
+[2026-02-06 21:58:52,722 __init__ INFO] [emref] took 4 seconds
+[2026-02-06 21:58:52,737 __init__ INFO] Running [caprieval] module
+[2026-02-06 21:58:52,737 capri INFO] Found previous CNS step: 3_emref
+[2026-02-06 21:58:52,837 capri INFO] Saved scoring weights to: weights_params.json
+[2026-02-06 21:58:52,837 __init__ INFO] [caprieval] No reference structure provided. Using the structure with the lowest score from previous step
+[2026-02-06 21:58:52,890 libutil INFO] Selected 20 cores to process 20 jobs, with 32 maximum available cores.
+[2026-02-06 21:58:52,890 libparallel INFO] Using 20 cores
+[2026-02-06 21:58:53,143 libparallel INFO] 20 tasks finished
+[2026-02-06 21:58:53,143 capri INFO] Rearranging cluster information into capri_clt.tsv
+[2026-02-06 21:58:53,147 __init__ INFO] Module [caprieval] finished.
+[2026-02-06 21:58:53,148 __init__ INFO] [caprieval] took 0 seconds
+[2026-02-06 21:58:53,148 cli_analyse INFO] Running haddock3-analyse on ./, modules [4], with top_cluster = 10
+[2026-02-06 21:58:53,154 cli_analyse INFO] Created directory: /mnt/Data/PopOS/Data_Ana/Wu/clawdPorjects/HADDOCK_test/results_full/run_refold_9MSC_Epi/analysis
+[2026-02-06 21:58:53,154 cli_analyse INFO] Reading input run directory
+[2026-02-06 21:58:53,155 cli_analyse INFO] selected steps: 4_caprieval
+[2026-02-06 21:58:53,155 cli_analyse INFO] Analysing step 4_caprieval
+[2026-02-06 21:58:53,155 cli_analyse INFO] step 4_caprieval is caprieval, files should be already available
+[2026-02-06 21:58:53,155 cli_analyse INFO] CAPRI files identified
+[2026-02-06 21:58:53,157 cli_analyse INFO] Plotting results..
+[2026-02-06 21:58:54,167 cli_analyse INFO] Summary archive summary.tgz created!
+[2026-02-06 21:58:54,167 cli_analyse INFO] moving files to analysis folder
+[2026-02-06 21:58:54,167 cli_analyse INFO] updating paths in analysis/4_caprieval_analysis/capri_ss.tsv
+[2026-02-06 21:58:54,167 cli_analyse INFO] View the results in analysis/4_caprieval_analysis/report.html
+[2026-02-06 21:58:54,167 cli_analyse INFO] To view structures or download the structure files, in a terminal run the command `python -m http.server --directory /mnt/Data/PopOS/Data_Ana/Wu/clawdPorjects/HADDOCK_test/results_full/run_refold_9MSC_Epi`. By default, http server runs on `http://0.0.0.0:8000/`. Open the link http://0.0.0.0:8000/analysis/4_caprieval_analysis/report.html in a web browser.
+[2026-02-06 21:58:54,167 cli_traceback INFO] Running haddock3-traceback on ./
+[2026-02-06 21:58:54,167 cli_traceback INFO] Reading input run directory
+[2026-02-06 21:58:54,168 cli_traceback INFO] All_steps: 0_topoaa, 1_rigidbody, 2_flexref, 3_emref, 4_caprieval
+[2026-02-06 21:58:54,168 cli_traceback INFO] Modules not to be analysed: 0_topoaa, 4_caprieval
+[2026-02-06 21:58:54,168 cli_traceback INFO] Steps to trace back: 1_rigidbody, 2_flexref, 3_emref
+[2026-02-06 21:58:54,168 cli_traceback INFO] Created directory: /mnt/Data/PopOS/Data_Ana/Wu/clawdPorjects/HADDOCK_test/results_full/run_refold_9MSC_Epi/traceback
+[2026-02-06 21:58:54,168 cli_traceback INFO] Tracing back step 3_emref
+[2026-02-06 21:58:54,171 cli_traceback INFO] Tracing back step 2_flexref
+[2026-02-06 21:58:54,172 cli_traceback INFO] Tracing back step 1_rigidbody
+[2026-02-06 21:58:54,177 cli_traceback INFO] Output dataframe traceback/traceback.tsv created with shape (20, 8)
+[2026-02-06 21:58:54,203 clean_steps INFO] Cleaning output for '0_topoaa' using 20 cores.
+[2026-02-06 21:58:54,306 libtimer INFO] cleaning output files took 0 seconds
+[2026-02-06 21:58:54,306 clean_steps INFO] Cleaning output for '1_rigidbody' using 20 cores.
+[2026-02-06 21:58:54,406 libtimer INFO] cleaning output files took 0 seconds
+[2026-02-06 21:58:54,406 clean_steps INFO] Cleaning output for '2_flexref' using 20 cores.
+[2026-02-06 21:58:54,495 libtimer INFO] cleaning output files took 0 seconds
+[2026-02-06 21:58:54,495 clean_steps INFO] Cleaning output for '3_emref' using 20 cores.
+[2026-02-06 21:58:54,588 libtimer INFO] cleaning output files took 0 seconds
+[2026-02-06 21:58:54,588 clean_steps INFO] Cleaning output for '4_caprieval' using 20 cores.
+[2026-02-06 21:58:54,597 libtimer INFO] cleaning output files took 0 seconds
+[2026-02-06 21:58:54,597 cli INFO] This HADDOCK3 run took: 1 minute and 12 seconds
+[2026-02-06 21:58:54,597 greetings INFO] Your feedback matters in Haddock3! Share your experience and help us grow:
+[2026-02-06 21:58:54,597 greetings INFO] GitHub issues: https://github.com/haddocking/haddock3/issues
+[2026-02-06 21:58:54,597 greetings INFO] BioExcel feedback: https://www.bonvinlab.org/feedback
+[2026-02-06 21:58:54,597 greetings INFO] BioExcel forum: https://ask.bioexcel.eu/c/haddock/6
+[2026-02-06 21:58:54,597 cli INFO] Finished at 06/02/2026 21:58:54. Agur! Au revoir! Tot ziens!

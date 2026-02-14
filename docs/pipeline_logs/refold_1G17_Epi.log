@@ -1,0 +1,16 @@
+[2026-02-06T03:27:48]
+receptor chains ['A', 'B', 'C']; ligand chains ['H', 'L']
+split -> receptor_refold_1G17_Epi.pdb, ligand_refold_1G17_Epi.pdb; merged -> receptor_single_refold_1G17_Epi.pdb, ligand_single_refold_1G17_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_1G17_Epi.tbl
+AIR pairs: 92 (rec_if [11, 12, 316, 370, 373], lig_if [54, 55, 103, 104]) -> air_refold_1G17_Epi.tbl
+config: haddock3_config_refold_1G17_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_1G17_Epi.log
+
+[2026-02-06T05:12:59]
+receptor chains ['A', 'B', 'C']; ligand chains ['H', 'L']
+split -> receptor_refold_1G17_Epi.pdb, ligand_refold_1G17_Epi.pdb; merged -> receptor_single_refold_1G17_Epi.pdb, ligand_single_refold_1G17_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_1G17_Epi.tbl
+AIR pairs: 92 (rec_if [11, 12, 316, 370, 373], lig_if [54, 55, 103, 104]) -> air_refold_1G17_Epi.tbl
+config: haddock3_config_refold_1G17_Epi.cfg
+run haddock3 rc=0, log=haddock_refold_1G17_Epi.log
+

@@ -1,0 +1,17 @@
+[run]
+seed = 42
+steps = ["topoaa", "rigidbody", "it1", "water"]
+project_dir = "../results/run_region1"
+
+molecules = ["../data/receptor.pdb", "../data/ligand.pdb"]
+
+topoaa.ambig = "../restraints/air_all.tbl"
+
+rigidbody.ambig_fname = "../restraints/air_all.tbl"
+rigidbody.haddock3_nstructures = 1000
+
+it1.ambig_fname = "../restraints/air_all.tbl"
+it1.ntrials = 200
+it1.flexible = true
+
+water.ambig_fname = "../restraints/air_all.tbl"

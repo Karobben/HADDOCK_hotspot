@@ -1,0 +1,24 @@
+# Guided soft-body docking focused on receptor residues with B-factor > -20
+run:
+  seed: 42
+  steps: [topoaa, rigidbody, it1, water]
+  project_dir: ../results/run_region1
+
+molecules:
+  - ../data/receptor.pdb   # chain A
+  - ../data/ligand.pdb     # chains H+L
+
+topoaa:
+  ambig: ../restraints/air_all.tbl
+
+rigidbody:
+  ambig_fname: ../restraints/air_all.tbl
+  haddock3_nstructures: 1000
+
+it1:
+  ambig_fname: ../restraints/air_all.tbl
+  ntrials: 200
+  flexible: true
+
+water:
+  ambig_fname: ../restraints/air_all.tbl

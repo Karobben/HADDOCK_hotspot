@@ -1,0 +1,24 @@
+[2026-02-06T03:27:40]
+receptor chains ['T']; ligand chains ['H', 'L']
+split -> receptor_9BLL_Epi.pdb, ligand_9BLL_Epi.pdb; merged -> receptor_single_9BLL_Epi.pdb, ligand_single_9BLL_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_9BLL_Epi.tbl
+AIR pairs: 0 (rec_if [126, 127, 172, 173], lig_if [26, 103, 104]) -> air_9BLL_Epi.tbl
+config: haddock3_config_9BLL_Epi.cfg
+run haddock3 rc=1, log=haddock_9BLL_Epi.log
+
+[2026-02-06T04:39:16]
+receptor chains ['T']; ligand chains ['H', 'L']
+split -> receptor_9BLL_Epi.pdb, ligand_9BLL_Epi.pdb; merged -> receptor_single_9BLL_Epi.pdb, ligand_single_9BLL_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_9BLL_Epi.tbl
+AIR pairs: 0 (rec_if [126, 127, 172, 173], lig_if [26, 103, 104]) -> air_9BLL_Epi.tbl
+config: haddock3_config_9BLL_Epi.cfg
+run haddock3 rc=1, log=haddock_9BLL_Epi.log
+
+[2026-02-06T11:01:18]
+receptor chains ['T']; ligand chains ['H', 'L']
+split -> receptor_9BLL_Epi.pdb, ligand_9BLL_Epi.pdb; merged -> receptor_single_9BLL_Epi.pdb, ligand_single_9BLL_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_9BLL_Epi.tbl
+AIR pairs: 12 (rec_if [126, 127, 172, 173], lig_if [26, 103, 104]) -> air_9BLL_Epi.tbl
+config: haddock3_config_9BLL_Epi.cfg
+run haddock3 rc=0, log=haddock_9BLL_Epi.log
+

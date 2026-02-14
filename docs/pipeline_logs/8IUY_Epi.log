@@ -1,0 +1,16 @@
+[2026-02-06T03:27:37]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_8IUY_Epi.pdb, ligand_8IUY_Epi.pdb; merged -> receptor_single_8IUY_Epi.pdb, ligand_single_8IUY_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_8IUY_Epi.tbl
+AIR pairs: 180 (rec_if [132, 133], lig_if [32, 33, 101, 102]) -> air_8IUY_Epi.tbl
+config: haddock3_config_8IUY_Epi.cfg
+run haddock3 rc=1, log=haddock_8IUY_Epi.log
+
+[2026-02-06T04:17:35]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_8IUY_Epi.pdb, ligand_8IUY_Epi.pdb; merged -> receptor_single_8IUY_Epi.pdb, ligand_single_8IUY_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_8IUY_Epi.tbl
+AIR pairs: 180 (rec_if [132, 133], lig_if [32, 33, 101, 102]) -> air_8IUY_Epi.tbl
+config: haddock3_config_8IUY_Epi.cfg
+run haddock3 rc=0, log=haddock_8IUY_Epi.log
+

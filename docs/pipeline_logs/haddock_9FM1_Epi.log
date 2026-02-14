@@ -1,0 +1,31 @@
+[2026-02-06 04:54:35,288 cli INFO] 
+##############################################
+#                                            #
+#                 HADDOCK3                   #
+#                                            #
+##############################################
+
+!! Some of the HADDOCK3 components use CNS (Crystallographic and NMR System) which is free of use for non-profit applications. !!
+!! For commercial use it is your own responsibility to have a proper license. !!
+!! For details refer to the DISCLAIMER file in the HADDOCK3 repository. !!
+
+Starting HADDOCK3 v2024.10.0b7 on 2026-02-06 04:54:00
+
+Python 3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0]
+
+[2026-02-06 04:54:39,036 libutil ERROR] The following file could not be found: '/mnt/Data/PopOS/Data_Ana/Wu/clawdPorjects/HADDOCK_test/restraints/intra_lig_lock_9FM1_Epi.tbl'. In the folder '/mnt/Data/PopOS/Data_Ana/Wu/clawdPorjects/HADDOCK_test/restraints' the following 'intra_lig_lock_9B2M_Epi.tbl' is the closest match to the supplied 'intra_lig_lock_9FM1_Epi.tbl', did you mean to open this?
+Traceback (most recent call last):
+  File "/home/yiran/BioTools/haddock3/src/haddock/libs/libutil.py", line 378, in log_error_and_exit
+    yield
+  File "/home/yiran/BioTools/haddock3/src/haddock/clis/cli.py", line 150, in main
+    params, other_params = setup_run(
+  File "/home/yiran/BioTools/haddock3/src/haddock/gear/prepare_run.py", line 424, in setup_run
+    copy_input_files_to_data_dir(data_dir, modules_params)
+  File "/home/yiran/BioTools/haddock3/src/haddock/gear/prepare_run.py", line 1035, in copy_input_files_to_data_dir
+    check_if_path_exists(value)
+  File "/home/yiran/BioTools/haddock3/src/haddock/gear/prepare_run.py", line 1363, in check_if_path_exists
+    raise ValueError(msg)
+ValueError: The following file could not be found: '/mnt/Data/PopOS/Data_Ana/Wu/clawdPorjects/HADDOCK_test/restraints/intra_lig_lock_9FM1_Epi.tbl'. In the folder '/mnt/Data/PopOS/Data_Ana/Wu/clawdPorjects/HADDOCK_test/restraints' the following 'intra_lig_lock_9B2M_Epi.tbl' is the closest match to the supplied 'intra_lig_lock_9FM1_Epi.tbl', did you mean to open this?
+[2026-02-06 04:54:39,037 libutil ERROR] The following file could not be found: '/mnt/Data/PopOS/Data_Ana/Wu/clawdPorjects/HADDOCK_test/restraints/intra_lig_lock_9FM1_Epi.tbl'. In the folder '/mnt/Data/PopOS/Data_Ana/Wu/clawdPorjects/HADDOCK_test/restraints' the following 'intra_lig_lock_9B2M_Epi.tbl' is the closest match to the supplied 'intra_lig_lock_9FM1_Epi.tbl', did you mean to open this?
+[2026-02-06 04:54:39,037 libutil ERROR] An error has occurred, see log file. And contact the developers if needed.
+[2026-02-06 04:54:39,037 libutil INFO] Finished at 06/02/2026 04:54:39. For any help contact us at https://github.com/haddocking/haddock3/issues. La revedere! Adéu-siau! Agur!.

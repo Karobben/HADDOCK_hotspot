@@ -1,0 +1,160 @@
+[2026-02-06T02:28:21]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_refold_8IUZ_Epi.pdb, ligand_refold_8IUZ_Epi.pdb; merged -> receptor_single_refold_8IUZ_Epi.pdb, ligand_single_refold_8IUZ_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_8IUZ_Epi.tbl
+AIR pairs: 28 (rec_if [131, 132, 133], lig_if [32, 33, 101, 102]) -> air_refold_8IUZ_Epi.tbl
+config: haddock3_config_refold_8IUZ_Epi.cfg
+run haddock3 rc=0, log=haddock_refold_8IUZ_Epi.log
+
+[2026-02-06T02:32:58]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_refold_8IUZ_Epi.pdb, ligand_refold_8IUZ_Epi.pdb; merged -> receptor_single_refold_8IUZ_Epi.pdb, ligand_single_refold_8IUZ_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_8IUZ_Epi.tbl
+AIR pairs: 28 (rec_if [131, 132, 133], lig_if [32, 33, 101, 102]) -> air_refold_8IUZ_Epi.tbl
+config: haddock3_config_refold_8IUZ_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_8IUZ_Epi.log
+
+[2026-02-06T03:04:13]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_refold_8IUZ_Epi.pdb, ligand_refold_8IUZ_Epi.pdb; merged -> receptor_single_refold_8IUZ_Epi.pdb, ligand_single_refold_8IUZ_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_8IUZ_Epi.tbl
+AIR pairs: 28 (rec_if [131, 132, 133], lig_if [32, 33, 101, 102]) -> air_refold_8IUZ_Epi.tbl
+config: haddock3_config_refold_8IUZ_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_8IUZ_Epi.log
+
+[2026-02-06T03:21:06]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_refold_8IUZ_Epi.pdb, ligand_refold_8IUZ_Epi.pdb; merged -> receptor_single_refold_8IUZ_Epi.pdb, ligand_single_refold_8IUZ_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_8IUZ_Epi.tbl
+AIR pairs: 28 (rec_if [131, 132, 133], lig_if [32, 33, 101, 102]) -> air_refold_8IUZ_Epi.tbl
+config: haddock3_config_refold_8IUZ_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_8IUZ_Epi.log
+
+[2026-02-06T03:21:51]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_refold_8IUZ_Epi.pdb, ligand_refold_8IUZ_Epi.pdb; merged -> receptor_single_refold_8IUZ_Epi.pdb, ligand_single_refold_8IUZ_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_8IUZ_Epi.tbl
+AIR pairs: 28 (rec_if [131, 132, 133], lig_if [32, 33, 101, 102]) -> air_refold_8IUZ_Epi.tbl
+config: haddock3_config_refold_8IUZ_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_8IUZ_Epi.log
+
+[2026-02-06T03:24:01]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_refold_8IUZ_Epi.pdb, ligand_refold_8IUZ_Epi.pdb; merged -> receptor_single_refold_8IUZ_Epi.pdb, ligand_single_refold_8IUZ_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_8IUZ_Epi.tbl
+AIR pairs: 28 (rec_if [131, 132, 133], lig_if [32, 33, 101, 102]) -> air_refold_8IUZ_Epi.tbl
+config: haddock3_config_refold_8IUZ_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_8IUZ_Epi.log
+
+[2026-02-06T03:25:23]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_refold_8IUZ_Epi.pdb, ligand_refold_8IUZ_Epi.pdb; merged -> receptor_single_refold_8IUZ_Epi.pdb, ligand_single_refold_8IUZ_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_8IUZ_Epi.tbl
+AIR pairs: 28 (rec_if [131, 132, 133], lig_if [32, 33, 101, 102]) -> air_refold_8IUZ_Epi.tbl
+config: haddock3_config_refold_8IUZ_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_8IUZ_Epi.log
+
+[2026-02-06T03:26:09]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_refold_8IUZ_Epi.pdb, ligand_refold_8IUZ_Epi.pdb; merged -> receptor_single_refold_8IUZ_Epi.pdb, ligand_single_refold_8IUZ_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_8IUZ_Epi.tbl
+AIR pairs: 28 (rec_if [131, 132, 133], lig_if [32, 33, 101, 102]) -> air_refold_8IUZ_Epi.tbl
+config: haddock3_config_refold_8IUZ_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_8IUZ_Epi.log
+
+[2026-02-06T03:27:53]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_refold_8IUZ_Epi.pdb, ligand_refold_8IUZ_Epi.pdb; merged -> receptor_single_refold_8IUZ_Epi.pdb, ligand_single_refold_8IUZ_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_8IUZ_Epi.tbl
+AIR pairs: 28 (rec_if [131, 132, 133], lig_if [32, 33, 101, 102]) -> air_refold_8IUZ_Epi.tbl
+config: haddock3_config_refold_8IUZ_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_8IUZ_Epi.log
+
+[2026-02-06T03:28:06]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_refold_8IUZ_Epi.pdb, ligand_refold_8IUZ_Epi.pdb; merged -> receptor_single_refold_8IUZ_Epi.pdb, ligand_single_refold_8IUZ_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_8IUZ_Epi.tbl
+AIR pairs: 28 (rec_if [131, 132, 133], lig_if [32, 33, 101, 102]) -> air_refold_8IUZ_Epi.tbl
+config: haddock3_config_refold_8IUZ_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_8IUZ_Epi.log
+
+[2026-02-06T03:29:49]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_refold_8IUZ_Epi.pdb, ligand_refold_8IUZ_Epi.pdb; merged -> receptor_single_refold_8IUZ_Epi.pdb, ligand_single_refold_8IUZ_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_8IUZ_Epi.tbl
+AIR pairs: 28 (rec_if [131, 132, 133], lig_if [32, 33, 101, 102]) -> air_refold_8IUZ_Epi.tbl
+config: haddock3_config_refold_8IUZ_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_8IUZ_Epi.log
+
+[2026-02-06T03:31:47]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_refold_8IUZ_Epi.pdb, ligand_refold_8IUZ_Epi.pdb; merged -> receptor_single_refold_8IUZ_Epi.pdb, ligand_single_refold_8IUZ_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_8IUZ_Epi.tbl
+AIR pairs: 28 (rec_if [131, 132, 133], lig_if [32, 33, 101, 102]) -> air_refold_8IUZ_Epi.tbl
+config: haddock3_config_refold_8IUZ_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_8IUZ_Epi.log
+
+[2026-02-06T03:35:39]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_refold_8IUZ_Epi.pdb, ligand_refold_8IUZ_Epi.pdb; merged -> receptor_single_refold_8IUZ_Epi.pdb, ligand_single_refold_8IUZ_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_8IUZ_Epi.tbl
+AIR pairs: 28 (rec_if [131, 132, 133], lig_if [32, 33, 101, 102]) -> air_refold_8IUZ_Epi.tbl
+config: haddock3_config_refold_8IUZ_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_8IUZ_Epi.log
+
+[2026-02-06T03:36:15]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_refold_8IUZ_Epi.pdb, ligand_refold_8IUZ_Epi.pdb; merged -> receptor_single_refold_8IUZ_Epi.pdb, ligand_single_refold_8IUZ_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_8IUZ_Epi.tbl
+AIR pairs: 28 (rec_if [131, 132, 133], lig_if [32, 33, 101, 102]) -> air_refold_8IUZ_Epi.tbl
+config: haddock3_config_refold_8IUZ_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_8IUZ_Epi.log
+
+[2026-02-06T03:36:36]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_refold_8IUZ_Epi.pdb, ligand_refold_8IUZ_Epi.pdb; merged -> receptor_single_refold_8IUZ_Epi.pdb, ligand_single_refold_8IUZ_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_8IUZ_Epi.tbl
+AIR pairs: 28 (rec_if [131, 132, 133], lig_if [32, 33, 101, 102]) -> air_refold_8IUZ_Epi.tbl
+config: haddock3_config_refold_8IUZ_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_8IUZ_Epi.log
+
+[2026-02-06T03:38:54]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_refold_8IUZ_Epi.pdb, ligand_refold_8IUZ_Epi.pdb; merged -> receptor_single_refold_8IUZ_Epi.pdb, ligand_single_refold_8IUZ_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_8IUZ_Epi.tbl
+AIR pairs: 28 (rec_if [131, 132, 133], lig_if [32, 33, 101, 102]) -> air_refold_8IUZ_Epi.tbl
+config: haddock3_config_refold_8IUZ_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_8IUZ_Epi.log
+
+[2026-02-06T03:40:35]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_refold_8IUZ_Epi.pdb, ligand_refold_8IUZ_Epi.pdb; merged -> receptor_single_refold_8IUZ_Epi.pdb, ligand_single_refold_8IUZ_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_8IUZ_Epi.tbl
+AIR pairs: 28 (rec_if [131, 132, 133], lig_if [32, 33, 101, 102]) -> air_refold_8IUZ_Epi.tbl
+config: haddock3_config_refold_8IUZ_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_8IUZ_Epi.log
+
+[2026-02-06T03:40:46]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_refold_8IUZ_Epi.pdb, ligand_refold_8IUZ_Epi.pdb; merged -> receptor_single_refold_8IUZ_Epi.pdb, ligand_single_refold_8IUZ_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_8IUZ_Epi.tbl
+AIR pairs: 28 (rec_if [131, 132, 133], lig_if [32, 33, 101, 102]) -> air_refold_8IUZ_Epi.tbl
+config: haddock3_config_refold_8IUZ_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_8IUZ_Epi.log
+
+[2026-02-06T05:32:17]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_refold_8IUZ_Epi.pdb, ligand_refold_8IUZ_Epi.pdb; merged -> receptor_single_refold_8IUZ_Epi.pdb, ligand_single_refold_8IUZ_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_8IUZ_Epi.tbl
+AIR pairs: 28 (rec_if [131, 132, 133], lig_if [32, 33, 101, 102]) -> air_refold_8IUZ_Epi.tbl
+config: haddock3_config_refold_8IUZ_Epi.cfg
+run haddock3 rc=0, log=haddock_refold_8IUZ_Epi.log
+
+[2026-02-06T20:13:53]
+receptor chains ['A']; ligand chains ['H', 'L']
+split -> receptor_refold_8IUZ_Epi.pdb, ligand_refold_8IUZ_Epi.pdb; merged -> receptor_single_refold_8IUZ_Epi.pdb, ligand_single_refold_8IUZ_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_8IUZ_Epi.tbl
+AIR pairs: 28 (rec_if [131, 132, 133], lig_if [32, 33, 101, 102]) -> air_refold_8IUZ_Epi.tbl
+config: haddock3_config_refold_8IUZ_Epi.cfg
+run haddock3 rc=0, log=haddock_refold_8IUZ_Epi.log
+

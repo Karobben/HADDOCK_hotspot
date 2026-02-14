@@ -1,0 +1,16 @@
+[2026-02-06T03:27:34]
+receptor chains ['A', 'B', 'C']; ligand chains ['H', 'L']
+split -> receptor_1G23_Epi.pdb, ligand_1G23_Epi.pdb; merged -> receptor_single_1G23_Epi.pdb, ligand_single_1G23_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_1G23_Epi.tbl
+AIR pairs: 140 (rec_if [28, 316, 340, 341, 374], lig_if [101, 102, 103, 104, 178]) -> air_1G23_Epi.tbl
+config: haddock3_config_1G23_Epi.cfg
+run haddock3 rc=1, log=haddock_1G23_Epi.log
+
+[2026-02-06T04:08:37]
+receptor chains ['A', 'B', 'C']; ligand chains ['H', 'L']
+split -> receptor_1G23_Epi.pdb, ligand_1G23_Epi.pdb; merged -> receptor_single_1G23_Epi.pdb, ligand_single_1G23_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_1G23_Epi.tbl
+AIR pairs: 140 (rec_if [28, 316, 340, 341, 374], lig_if [101, 102, 103, 104, 178]) -> air_1G23_Epi.tbl
+config: haddock3_config_1G23_Epi.cfg
+run haddock3 rc=1, log=haddock_1G23_Epi.log
+

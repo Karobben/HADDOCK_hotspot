@@ -1,0 +1,16 @@
+[2026-02-06T03:27:50]
+receptor chains ['A', 'B', 'C', 'D']; ligand chains ['H', 'L']
+split -> receptor_refold_1W25_NA_Epi.pdb, ligand_refold_1W25_NA_Epi.pdb; merged -> receptor_single_refold_1W25_NA_Epi.pdb, ligand_single_refold_1W25_NA_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_1W25_NA_Epi.tbl
+AIR pairs: 84 (rec_if [1055, 1077, 1078, 1079, 1142], lig_if [32, 54, 99, 100, 101, 115]) -> air_refold_1W25_NA_Epi.tbl
+config: haddock3_config_refold_1W25_NA_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_1W25_NA_Epi.log
+
+[2026-02-06T05:23:27]
+receptor chains ['A', 'B', 'C', 'D']; ligand chains ['H', 'L']
+split -> receptor_refold_1W25_NA_Epi.pdb, ligand_refold_1W25_NA_Epi.pdb; merged -> receptor_single_refold_1W25_NA_Epi.pdb, ligand_single_refold_1W25_NA_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_1W25_NA_Epi.tbl
+AIR pairs: 84 (rec_if [1055, 1077, 1078, 1079, 1142], lig_if [32, 54, 99, 100, 101, 115]) -> air_refold_1W25_NA_Epi.tbl
+config: haddock3_config_refold_1W25_NA_Epi.cfg
+run haddock3 rc=0, log=haddock_refold_1W25_NA_Epi.log
+

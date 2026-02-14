@@ -1,0 +1,16 @@
+[2026-02-06T06:07:07]
+receptor chains ['E']; ligand chains ['H', 'L']
+split -> receptor_refold_9MSC_Epi.pdb, ligand_refold_9MSC_Epi.pdb; merged -> receptor_single_refold_9MSC_Epi.pdb, ligand_single_refold_9MSC_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_9MSC_Epi.tbl
+AIR pairs: 0 (rec_if [24], lig_if [149]) -> air_refold_9MSC_Epi.tbl
+config: haddock3_config_refold_9MSC_Epi.cfg
+run haddock3 rc=1, log=haddock_refold_9MSC_Epi.log
+
+[2026-02-06T15:32:32]
+receptor chains ['E']; ligand chains ['H', 'L']
+split -> receptor_refold_9MSC_Epi.pdb, ligand_refold_9MSC_Epi.pdb; merged -> receptor_single_refold_9MSC_Epi.pdb, ligand_single_refold_9MSC_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_9MSC_Epi.tbl
+AIR pairs: 1 (rec_if [24], lig_if [149]) -> air_refold_9MSC_Epi.tbl
+config: haddock3_config_refold_9MSC_Epi.cfg
+run haddock3 rc=0, log=haddock_refold_9MSC_Epi.log
+

@@ -1,0 +1,8 @@
+[2026-02-06T07:35:42]
+receptor chains ['A', 'B', 'C', 'D', 'E', 'F']; ligand chains ['H', 'L']
+split -> receptor_TG0081_Epi.pdb, ligand_TG0081_Epi.pdb; merged -> receptor_single_TG0081_Epi.pdb, ligand_single_TG0081_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_TG0081_Epi.tbl
+AIR pairs: 72 (rec_if [605, 608, 609, 610, 611], lig_if [149, 150, 151, 170]) -> air_TG0081_Epi.tbl
+config: haddock3_config_TG0081_Epi.cfg
+run haddock3 rc=0, log=haddock_TG0081_Epi.log
+

@@ -1,0 +1,8 @@
+[2026-02-06T06:13:13]
+receptor chains ['A', 'B', 'C', 'D', 'E', 'F']; ligand chains ['H', 'L']
+split -> receptor_refold_TG0009_Epi.pdb, ligand_refold_TG0009_Epi.pdb; merged -> receptor_single_refold_TG0009_Epi.pdb, ligand_single_refold_TG0009_Epi.pdb
+intra lock pairs: 12 -> intra_lig_lock_refold_TG0009_Epi.tbl
+AIR pairs: 28 (rec_if [535, 536, 537, 538, 561, 563, 564, 565, 566, 761, 762, 763, 764], lig_if [29, 30, 31, 50, 51, 52, 53, 54, 55, 56, 57, 97, 98, 201]) -> air_refold_TG0009_Epi.tbl
+config: haddock3_config_refold_TG0009_Epi.cfg
+run haddock3 rc=0, log=haddock_refold_TG0009_Epi.log
+

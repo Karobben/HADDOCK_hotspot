@@ -1,0 +1,76 @@
+[2026-02-06 21:08:22,268 cli INFO] 
+##############################################
+#                                            #
+#                 HADDOCK3                   #
+#                                            #
+##############################################
+
+!! Some of the HADDOCK3 components use CNS (Crystallographic and NMR System) which is free of use for non-profit applications. !!
+!! For commercial use it is your own responsibility to have a proper license. !!
+!! For details refer to the DISCLAIMER file in the HADDOCK3 repository. !!
+
+Starting HADDOCK3 v2024.10.0b7 on 2026-02-06 21:08:00
+
+Python 3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0]
+
+[2026-02-06 21:08:25,943 libworkflow INFO] Reading instructions step 0_topoaa
+[2026-02-06 21:08:25,943 libworkflow INFO] Reading instructions step 1_rigidbody
+[2026-02-06 21:08:25,943 libworkflow INFO] Reading instructions step 2_flexref
+[2026-02-06 21:08:25,943 libworkflow INFO] Reading instructions step 3_emref
+[2026-02-06 21:08:25,944 libworkflow INFO] Reading instructions step 4_caprieval
+[2026-02-06 21:08:25,957 base_cns_module INFO] Running [topoaa] module
+[2026-02-06 21:08:25,957 __init__ INFO] [topoaa] Molecule 1: receptor_single_refold_4fqi_HLBA_Epi.pdb
+[2026-02-06 21:08:25,959 __init__ INFO] [topoaa] Sanitizing molecule receptor_single_refold_4fqi_HLBA_Epi.pdb
+[2026-02-06 21:08:25,967 __init__ INFO] [topoaa] Topology CNS input created
+[2026-02-06 21:08:25,967 __init__ INFO] [topoaa] Molecule 2: ligand_single_refold_4fqi_HLBA_Epi.pdb
+[2026-02-06 21:08:25,968 __init__ INFO] [topoaa] Sanitizing molecule ligand_single_refold_4fqi_HLBA_Epi.pdb
+[2026-02-06 21:08:25,971 __init__ INFO] [topoaa] Topology CNS input created
+[2026-02-06 21:08:25,971 __init__ INFO] [topoaa] Running CNS Jobs n=2
+[2026-02-06 21:08:25,971 libutil INFO] Selected 2 cores to process 2 jobs, with 32 maximum available cores.
+[2026-02-06 21:08:25,972 libparallel INFO] Using 2 cores
+[2026-02-06 21:08:32,843 libparallel INFO] 2 tasks finished
+[2026-02-06 21:08:32,844 __init__ INFO] [topoaa] CNS jobs have finished
+[2026-02-06 21:08:32,845 base_cns_module INFO] Module [topoaa] finished.
+[2026-02-06 21:08:32,845 __init__ INFO] [topoaa] took 7 seconds
+[2026-02-06 21:08:33,167 base_cns_module INFO] Running [rigidbody] module
+[2026-02-06 21:08:33,168 __init__ INFO] [rigidbody] crossdock=true
+[2026-02-06 21:08:33,168 __init__ INFO] [rigidbody] Preparing jobs...
+[2026-02-06 21:08:33,170 libutil INFO] Selected 20 cores to process 20 jobs, with 32 maximum available cores.
+[2026-02-06 21:08:33,171 libparallel INFO] Using 20 cores
+[2026-02-06 21:08:33,198 libparallel INFO] 20 tasks finished
+[2026-02-06 21:08:33,198 __init__ INFO] [rigidbody] Preparation took 0.030319 seconds
+[2026-02-06 21:08:33,199 __init__ INFO] [rigidbody] Running CNS Jobs n=20
+[2026-02-06 21:08:33,199 libutil INFO] Selected 20 cores to process 20 jobs, with 32 maximum available cores.
+[2026-02-06 21:08:33,200 libparallel INFO] Using 20 cores
+[2026-02-06 21:08:54,360 libparallel INFO] 20 tasks finished
+[2026-02-06 21:08:54,360 __init__ INFO] [rigidbody] CNS jobs have finished
+[2026-02-06 21:08:54,397 base_cns_module INFO] Module [rigidbody] finished.
+[2026-02-06 21:08:54,397 __init__ INFO] [rigidbody] took 21 seconds
+[2026-02-06 21:08:54,769 base_cns_module INFO] Running [flexref] module
+[2026-02-06 21:08:54,842 __init__ INFO] [flexref] Running CNS Jobs n=20
+[2026-02-06 21:08:54,842 libutil INFO] Selected 20 cores to process 20 jobs, with 32 maximum available cores.
+[2026-02-06 21:08:54,843 libparallel INFO] Using 20 cores
+[2026-02-06 21:09:04,218 libparallel INFO] 20 tasks finished
+[2026-02-06 21:09:04,219 __init__ INFO] [flexref] CNS jobs have finished
+[2026-02-06 21:09:04,226 libutil ERROR] 100.00% of output was not generated for this module and tolerance was set to 5.00%.
+Traceback (most recent call last):
+  File "/home/yiran/BioTools/haddock3/src/haddock/libs/libutil.py", line 378, in log_error_and_exit
+    yield
+  File "/home/yiran/BioTools/haddock3/src/haddock/clis/cli.py", line 195, in main
+    workflow.run()
+  File "/home/yiran/BioTools/haddock3/src/haddock/libs/libworkflow.py", line 43, in run
+    step.execute()
+  File "/home/yiran/BioTools/haddock3/src/haddock/libs/libworkflow.py", line 162, in execute
+    self.module.run()  # type: ignore
+  File "/home/yiran/BioTools/haddock3/src/haddock/modules/base_cns_module.py", line 61, in run
+    self._run()
+  File "/home/yiran/BioTools/haddock3/src/haddock/modules/refinement/flexref/__init__.py", line 159, in _run
+    self.export_io_models(faulty_tolerance=self.params["tolerance"])
+  File "/home/yiran/BioTools/haddock3/src/haddock/modules/__init__.py", line 309, in export_io_models
+    self.finish_with_error(_msg)
+  File "/home/yiran/BioTools/haddock3/src/haddock/modules/__init__.py", line 317, in finish_with_error
+    raise RuntimeError(reason)
+RuntimeError: 100.00% of output was not generated for this module and tolerance was set to 5.00%.
+[2026-02-06 21:09:04,226 libutil ERROR] 100.00% of output was not generated for this module and tolerance was set to 5.00%.
+[2026-02-06 21:09:04,226 libutil ERROR] An error has occurred, see log file. And contact the developers if needed.
+[2026-02-06 21:09:04,227 libutil INFO] Finished at 06/02/2026 21:09:04. For any help contact us at https://github.com/haddocking/haddock3/issues. Good bye! Ciao! Tot ziens!.

@@ -1,0 +1,31 @@
+# Example HADDOCK3 run file (edit paths/residues to your case)
+# Docs: https://www.bonvinlab.org/software/haddock3
+
+run:
+  seed: 12345
+  steps: [topoaa, rigidbody, it1, water]
+  project_dir: ../results/run1
+
+molecules:
+  - ../data/receptor.pdb
+  - ../data/ligand.pdb
+
+topoaa:
+  ambig: ../restraints/air.tbl           # ambiguous restraints (hotspot AIRs)
+  unambig: ../restraints/unambig_example.tbl  # specific contact(s)
+  cmrest: ../restraints/com.tbl           # COM/pseudo-atom restraint (optional)
+
+rigidbody:
+  ambig_fname: ../restraints/air.tbl
+  unambig_fname: ../restraints/unambig_example.tbl
+  cmrest: ../restraints/com.tbl
+
+it1:
+  ambig_fname: ../restraints/air.tbl
+  unambig_fname: ../restraints/unambig_example.tbl
+  cmrest: ../restraints/com.tbl
+
+water:
+  ambig_fname: ../restraints/air.tbl
+  unambig_fname: ../restraints/unambig_example.tbl
+  cmrest: ../restraints/com.tbl
