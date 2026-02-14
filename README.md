@@ -10,7 +10,7 @@ source .venv/bin/activate
 ```
 
 ## Key Paths
-- `data/` — input PDBs. **Per-run intermediates are cleaned after pipeline runs.**
+- `data/` — input PDBs. **Per-run intermediates are cleaned after pipeline runs.** Example input included: `data/example_input.pdb` (antibody–antigen complex with epitope hotspots in B-factors).
 - `restraints/` — AIRs, intra-ligand locks, other restraint files.
 - `scripts/` — helpers: split/merge, restraints, pipeline, graph conversion.
 - `results/` — per-run archives (`results/run_<ID>/`). Do **not** pre-create/seed these before HADDOCK runs; HADDOCK needs to create/manage its run_dir.
@@ -18,11 +18,16 @@ source .venv/bin/activate
 - `Graphs/` — graph outputs (e.g., flexref interface graphs).
 - `pdbAG/` — receptor reference PDBs used to infer receptor chains (strip `refold_` prefix and `_Epi` suffix from complex name).
 
-## Batch Pipeline (recommended)
-Use `scripts/run_pipeline.py` to process one or more complex PDBs in `data/`:
+## Prepare & run
+1) Drop your antibody–antigen complex PDBs into `data/` (see `data/example_input.pdb`). The base name (without `.pdb`) is used to infer receptor chains from `pdbAG/<base>.pdb` (remove any `refold_` prefix and `_Epi` suffix first).
+2) Mark receptor hotspots via B-factors (pipeline uses receptor residues with B-factor > -20 to build AIRs to ligand residues within 6 Å).
+3) Ensure `.venv` is active and `haddock3` is installed in it.
+4) Run the batch pipeline:
 ```bash
 python scripts/run_pipeline.py --complexes <complex1.pdb> [<complex2.pdb> ...]
 ```
+
+## Batch Pipeline (recommended)
 Pipeline steps per complex:
 1) Infer receptor chains from `pdbAG/<base>.pdb` (base = complex stem without `refold_` and `_Epi`). Remaining chains = ligand.
 2) Split complex → `data/receptor_<base>.pdb`, `data/ligand_<base>.pdb`.
