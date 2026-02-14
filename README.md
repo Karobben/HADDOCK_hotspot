@@ -50,13 +50,13 @@ Logs: `docs/pipeline_logs/<base>.log` and appended to `docs/LOG.md`. Run log: `d
 ## Flow (mermaid)
 ```mermaid
 graph TD
-    A[Input PDBs in data/ (e.g., data/example_input.pdb)] --> B[Infer receptor from pdbAG/<base>.pdb (strip refold_/ _Epi); remaining chains = ligand]
+    A[Input PDBs in data/ (e.g., data/example_input.pdb)] --> B[Infer receptor from pdbAG/&lt;base&gt;.pdb (strip refold_/ _Epi); remaining chains = ligand]
     B --> C[Split complex → receptor/ligand]
     C --> D[Merge to single-chain receptor (A) + ligand (X)]
-    D --> E[Build restraints: intra-ligand lock + AIRs from receptor hotspots (B-factor > -20) to ligand within 6 Å]
-    E --> F[Write docs/haddock3_config_<base>.cfg]
+    D --> E[Build restraints: intra-lig lock + AIRs from receptor hotspots (B-factor &gt; -20) to ligand within 6 Å]
+    E --> F[Write docs/haddock3_config_&lt;base&gt;.cfg]
     F --> G[Run HADDOCK3]
-    G --> H[Archive results/run_<base>/ inputs + logs]
+    G --> H[Archive results/run_&lt;base&gt;/ inputs + logs]
     H --> I[Clean data/ intermediates]
 ```
 
